@@ -36,3 +36,14 @@ Paper focuses on bearing fault diagnosis with limited training data. Recently de
 In paper, we propose a deep neural network based few-shot learning approach for rolling bearing fault diagnosis with limited data. Our model is based on the siamese neural network, which learns by exploiting sample pairs of the same or different categories. Experimental results over the standard Case Western Reserve University (CWRU) bearing fault diagnosis benchmark dataset showed that our few-shot learning approach is more effective in fault diagnosis with limited data availability. When tested over different noise environments with minimal amount of training data, the performance of our few-shot learning model surpasses one of the baseline with reasonable noise level. When evaluated over test sets with new fault types or new working conditions, few-shot models work better than the baseline trained with all fault types. 
 
 All our models and datasets in this study are open sourced and can be downloaded from https://mekhub.cn/as/fault_diagnosis_with_few-shot_learning/ 
+
+Here are some figures in the paper, and the detail introduction of figures please see in paper：
+
+### Few-shot learning general strategy
+<img src=figures/few-shot.png width="50%">
+
+### Flowchart of the few-shot learning based fault diagnosis
+<img src=figures/framework1.png width="90%">
+
+### Few-shot learning model based on CNNs (WDCNN)
+<img src=figures/framework2.png width="50%">
