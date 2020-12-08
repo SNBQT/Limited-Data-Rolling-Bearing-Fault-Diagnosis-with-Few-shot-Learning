@@ -1,13 +1,7 @@
-# Limited Data Rolling Bearing Fault Diagnosis with Few-shot Learning 
+# Limited Data Rolling Bearing Fault Diagnosis with Few-shot Learning [[Paper]](https://ieeexplore.ieee.org/abstract/document/8793060)
 
-This is the corresponding repository of paper Limited Data Rolling Bearing Fault Diagnosis with Few-shot Learning. 
-
-
+ For the paper "Limited Data Rolling Bearing Fault Diagnosis with Few-shot Learning", as the mekhub.cn website needs to shut down for some reason, the origin code link (https://mekhub.cn/as/fault_diagnosis_with_few-shot_learning/) can't be open anymore. This is the alternate code repository of the paper. 
 ## [[Paper]](https://ieeexplore.ieee.org/abstract/document/8793060)
-
-## [[Code]](https://mekhub.cn/as/fault_diagnosis_with_few-shot_learning/)
-
-All our models and datasets in this study are open sourced and can be downloaded from https://mekhub.cn/as/fault_diagnosis_with_few-shot_learning/ 
 
 ## To cite
 ```
@@ -22,6 +16,28 @@ All our models and datasets in this study are open sourced and can be downloaded
 }
 ```
 
+## Structure
+
+- Datasets: The Case Western Reserve University (CWRU) bearing fault diagnosis dataset.
+- figures: Some figures useing in README.md.
+- tmp: Save trained models and test results.
+- cwru.py: Define dataset load function which can auto download the data. 
+- experimentAB.ipynb: Experiment A and B code in the paper
+- experimentC.ipynb: Experiment C code in the paper 
+- experimentD.ipynb: Experiment D code in the paper 
+- metadata.txt: Be used in the cwru.py file.
+- models.py: Define few-shot model and WDCNN model load functions.
+- siamese.py: Define the init of few-shot input data, few-shot model training, and few-shot model testing functions.
+- utils.py: Define some utility functions.
+
+## Usage
+Launching Jupyter Notebook App.
+```
+jupyter notebook .
+```
+Then open experimentA-SVM.ipynb, experimentAB.ipynb, experimentC.ipynb, and experimentD.ipynb to see the detail of experiments.
+
+
 ## Intrudoction
 
 Paper focuses on bearing fault diagnosis with limited training data. Recently deep learning based fault diagnosis methods have achieved promising results. However, most of these intelligent fault diagnosis methods have not addressed one of the major challenges **in real-world bearing fault diagnosis**: there are always one or more fault types with limited fault samples covering all different working conditions. This situation can arise in several situations: 
@@ -35,7 +51,7 @@ Paper focuses on bearing fault diagnosis with limited training data. Recently de
 
 In paper, we propose a deep neural network based few-shot learning approach for rolling bearing fault diagnosis with limited data. Our model is based on the siamese neural network, which learns by exploiting sample pairs of the same or different categories. Experimental results over the standard Case Western Reserve University (CWRU) bearing fault diagnosis benchmark dataset showed that our few-shot learning approach is more effective in fault diagnosis with limited data availability. When tested over different noise environments with minimal amount of training data, the performance of our few-shot learning model surpasses one of the baseline with reasonable noise level. When evaluated over test sets with new fault types or new working conditions, few-shot models work better than the baseline trained with all fault types. 
 
-All our models and datasets in this study are open sourced and can be downloaded from https://mekhub.cn/as/fault_diagnosis_with_few-shot_learning/ 
+All our models and datasets in this study are open sourced and can be downloaded here.
 
 Here are some figures in the paper, and the detail introduction of figures please see in paper：
 
@@ -47,3 +63,12 @@ Here are some figures in the paper, and the detail introduction of figures pleas
 
 ### Few-shot learning model based on CNNs (WDCNN)
 <img src=figures/framework2.png width="50%">
+
+
+## Env requirement
+All codes and trained models were tested with Python3.6 and following versioned packages:
+
+- tensorflow >= 1.12.0
+- keras >= 2.2.4
+- seaborn
+- imblearn
