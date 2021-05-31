@@ -20,8 +20,8 @@
 
 - Datasets: The Case Western Reserve University (CWRU) bearing fault diagnosis dataset.
 - figures: Some figures useing in README.md.
-- tmp: Save trained models and test results. My paper tmp files can download from [[tmp.zip (464MB)]](https://1drv.ms/u/s!At5AiOeueyrEgydZVNeJjbWHiw68?e=HmzK5f).
-- cwru.py: Define dataset load function which can auto download the data. Or you can download manually from [[Datasets.zip (229MB)]](https://1drv.ms/u/s!At5AiOeueyrEgyUY038Ln_SQ8SRo?e=Fp9o7P).
+- tmp: Save trained models and test results. My paper tmp files can download from [[tmp.zip (464MB)]](https://1drv.ms/u/s!At5AiOeueyrEgydZVNeJjbWHiw68?e=HmzK5f) or [提取码: htgw](https://pan.baidu.com/s/1k9xkejB-3YRqDunKA9AUsw).
+- cwru.py: Define dataset load function which can auto download the data. Or you can download manually from [[Datasets.zip (229MB)]](https://1drv.ms/u/s!At5AiOeueyrEgyUY038Ln_SQ8SRo?e=Fp9o7P) or [提取码: 7uu9](https://pan.baidu.com/s/1WgJMPSDcipugR1Bh4KRadg).
 - experimentAB.ipynb: Experiment A and B code in the paper
 - experimentC.ipynb: Experiment C code in the paper 
 - experimentD.ipynb: Experiment D code in the paper 
