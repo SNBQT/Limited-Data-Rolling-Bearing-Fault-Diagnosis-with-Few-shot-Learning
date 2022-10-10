@@ -20,8 +20,7 @@
 
 - Datasets: The Case Western Reserve University (CWRU) bearing fault diagnosis dataset.
 - figures: Some figures useing in README.md.
-- tmp: Save trained models and test results. My paper tmp files can download from [[tmp.zip (464MB)]](https://1drv.ms/u/s!At5AiOeueyrEgydZVNeJjbWHiw68?e=HmzK5f) or [提取码: htgw](https://pan.baidu.com/s/1k9xkejB-3YRqDunKA9AUsw).
-- cwru.py: Define dataset load function which can auto download the data. Or you can download manually from [[Datasets.zip (229MB)]](https://1drv.ms/u/s!At5AiOeueyrEgyUY038Ln_SQ8SRo?e=Fp9o7P) or [提取码: 7uu9](https://pan.baidu.com/s/1WgJMPSDcipugR1Bh4KRadg).
+- cwru.py: Define dataset load function which can auto download the data. But dataset link is not working now. You can download manually from [[Datasets.zip (229MB)]](https://1drv.ms/u/s!At5AiOeueyrEgyUY038Ln_SQ8SRo?e=Fp9o7P) or [提取码: 7uu9](https://pan.baidu.com/s/1WgJMPSDcipugR1Bh4KRadg).
 - experimentAB.ipynb: Experiment A and B code in the paper
 - experimentC.ipynb: Experiment C code in the paper 
 - experimentD.ipynb: Experiment D code in the paper 
@@ -29,6 +28,7 @@
 - models.py: Define few-shot model and WDCNN model load functions.
 - siamese.py: Define the init of few-shot input data, few-shot model training, and few-shot model testing functions.
 - utils.py: Define some utility functions.
+- tmp: Save trained models and test results. Data is not required to download for running the code，and my paper tmp files can download from [[tmp.zip (464MB)]](https://1drv.ms/u/s!At5AiOeueyrEgydZVNeJjbWHiw68?e=HmzK5f) or [提取码: htgw](https://pan.baidu.com/s/1k9xkejB-3YRqDunKA9AUsw).
 
 ## Usage
 Launching Jupyter Notebook App.
